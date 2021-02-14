@@ -4,32 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node node_modules/nodemon/bin/nodemon.js src/app.js --exec",
-    "lint": "node node_modules/.bin/eslint **/*.js"
+    "start": "node node_modules/nodemon/bin/nodemon.js src/app.js --exec"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.7.2",
     "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
-    "mysql": "^2.18.1",
+    "mysql": "github:mysqljs/mysql",
     "nodemon": "^2.0.4",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "sequelize": "^6.3.3",
     "sqlite3": "^5.0.0",
     "table-scraper": "^0.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^7.3.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
   }
 }
