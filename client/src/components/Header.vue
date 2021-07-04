@@ -9,6 +9,13 @@
       <v-toolbar-title>
        <span class="home" @click="navigateTo({name: 'root'})">LifeTracker</span>
       </v-toolbar-title>
+
+      <v-toolbar-items>
+        <v-btn flat dark>
+          Browse 
+        </v-btn>
+      </v-toolbar-items>
+
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn v-if="!$store.state.isUserLoggedIn" to="/login" light>
