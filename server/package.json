@@ -25,6 +25,6 @@
     "request-promise": "^4.2.5",
     "sequelize": "^6.3.3",
     "sqlite3": "^5.0.0",
-    "table-scraper": "^0.1.0"
+    "table-scraper": "^1.0.3"
   }
 }
